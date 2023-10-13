@@ -10,7 +10,7 @@ const gitHub= 'https://github.com/christopherpergo';
 <div className='contenedor'>
   <div className='fotoPrincipal'></div>
   <div className='contenido'>
-    <h1 className='textoCabecera'>Christopher Pereira<br/><span className='textoSpan'>Web developer</span></h1>
+    <h1 className='textoCabecera'>Christopher Pereira<br/><span className='textoSpan'>Web Developer</span></h1>
      
   <div className='logosP-container'>
       <a href={linkedin} target='_blank' rel='noopener noreferrer'>
