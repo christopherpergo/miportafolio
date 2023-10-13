@@ -10,7 +10,7 @@ function App() {
     <>
      <Cabecera/>
      <Main/>
-     <Footer/>
+    
     </>
   )
 }

@@ -89,8 +89,16 @@
   height: 137px;
   border-radius: 20px;
  margin-top: 50px;
- margin-left: 40px;
+ margin-left: 60px;
  
+ }
+ .idioma{
+margin-top: 10px;
+margin-left: 100px;
+background: linear-gradient(to left, rgb(248, 61, 61), rgb(45, 138, 232));
+color: white;
+border: solid 2px yellow;
+
  }
 .padreAboutme{
   display: flex;
@@ -122,6 +130,7 @@
 }
 ul{
   width: 250px;
+  margin-right: 20px;
 }
 .portfolio {
 background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));

@@ -67,7 +67,8 @@ button:focus-visible {
   }
 }
 hr{
-  height: 455px;
+  height: 450px;
+  text-align: center;
 
 }
 Footer {
