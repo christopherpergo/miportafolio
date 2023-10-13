@@ -1,0 +1,414 @@
+.contenedor {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.fotoPrincipal {
+  position: relative;
+  height: 100%;
+  background-image: url(https://us.123rf.com/450wm/nexusplexus/nexusplexus1212/nexusplexus121201349/16767789-ojo-informaci%C3%B3n-visual-digital-representado-por-c%C3%ADrculos-y-signos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+  filter: brightness(35%); 
+}
+
+.textoCabecera{
+  position: absolute;
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-weight: bold; 
+ 
+
+}
+.textoSpan {
+  margin-left: 75px;
+  padding: 3px;
+  font-size: 35px;
+  margin-top: 5px;
+  animation: myAnim3 3s ease 0s 1 normal forwards;
+
+}
+@keyframes myAnim3 {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.logosP-container {
+  margin-top: 20px; 
+  position: absolute;
+  top: 70%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.logosIzq {
+  margin: 0 5px;
+  width: 55px;
+  height: 52px;
+  animation: myAnim1 4s ease 0s 1 normal forwards;
+}
+@keyframes myAnim1 {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.logosDer {
+  margin: 0 5px;
+  width: 55px;
+  height: 55px;
+  animation: myAnim2 4s ease 0s 1 normal forwards;
+}
+@keyframes myAnim2 {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.miFoto{
+  width: 220px;
+  height: 137px;
+  border-radius: 20px;
+ margin-top: 50px;
+ margin-left: 40px;
+ 
+ }
+.padreAboutme{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.aboutMe1{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  
+}
+.aboutMe3{
+  writing-mode: vertical-rl;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.aboutMe2 {
+  margin-left: 50px;
+  margin-right:  50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ font-size: 17px;
+
+}
+ul{
+  width: 250px;
+}
+.portfolio {
+background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+ color: white;
+ padding: 6px;
+
+}
+.portfolioNombre{
+padding: 10px;
+margin-left: 30px;
+font-size: 38px;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 20px;
+}
+.imagenesProjects{
+  width: 600px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: white 2px solid;
+
+}
+.projectUP{
+  display: flex;
+  margin-bottom: 40px;
+
+}
+.infoPorjects{
+  margin-left: 50px;
+  margin-right: 20px;
+  font-size: 19px;
+}
+.linkProjects{
+  margin-left: 50px;
+  font-size: 25px;
+}
+.linkProjects:hover {
+  color: aqua;
+}
+.logoPadre{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: linear-gradient(to right, rgb(181, 92, 237), rgb(251, 179, 62));
+  margin-left: 500px;
+  margin-right: 500px;
+border-radius: 10px;
+margin-top: 120px;
+
+}
+.logos {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.contacto{
+  font-size: 43px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.contenedor2 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.textoContenedor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.logoFondo {
+  width: 350px;
+  height: 350px;
+  background-image: url(https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_8_b9psle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.logoFondo3 {
+  width: 600px;
+  height: 600px;
+  background-image: url(https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_6_kewix7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 70px;
+
+}
+.textoFinal{
+  color: black;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 600;
+
+}
+.logoWeb{
+  display: flex;
+  justify-content: space-between;
+}
+/* pantallas grandes */
+@media (min-width: 1400px){
+  .mainBigscreen{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .portfolioNombre,
+  .projectUP{
+    margin-left: 200px;
+  }
+  .infoPorjects{
+    margin-right: 150px;
+  }
+  .logoWeb{
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  .textoFinal{
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  .logoPadre{
+    margin-left: 700px;
+    margin-right: 700px;
+  }
+}
+/* pantallas pequenas */
+
+@media (max-width: 768px) {
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  height: auto; /* Ajusta la altura automáticamente */
+  text-align: center;
+}
+
+.fotoPrincipal {
+  height: 300px;
+  width: 740px;
+  background-size: cover;
+  filter: brightness(35%);
+}
+
+.textoCabecera {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.textoSpan {
+  font-size: 18px;
+  margin-right: 50px;
+}
+.aboutMe1{
+  writing-mode: horizontal-tb;
+    transform: none;
+
+ font-size: 35px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.aboutMe3{
+  display: none;
+}
+.aboutMe2{
+  font-size: 20px;
+  text-align: left;
+  width: 350px;
+  margin-right: 50px;
+  margin-left: 3px;
+}
+.logosP-container {
+  margin-top: 20px;
+}
+
+.miFoto {
+  width: 200px;
+  height: 124px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.padreAboutme {
+  display: block; /* Cambia a diseño de bloque para dispositivos móviles */
+  text-align: center;
+  margin: 10px;
+}
+
+
+
+.ul {
+  width: auto;
+  text-align: center;
+}
+
+/* Estilos para el portafolio */
+.portfolio {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+  color: white;
+  padding: 6px;
+  text-align: center;
+}
+
+.portfolioNombre {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+
+.imagenesProjects {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-left: 1px;
+
+}
+
+.projectUP {
+  display: block; /* Cambia a diseño de bloque para dispositivos móviles */
+  margin-bottom: 20px;
+}
+
+.infoPorjects,
+.linkProjects {
+  font-size: 16px;
+
+}
+
+.linkProjects:hover {
+  color: aqua;
+}
+
+/* Estilos para la sección de logos */
+.logoPadre {
+  display: block; /* Cambia a diseño de bloque para dispositivos móviles */
+  text-align: center;
+  margin: 20px;
+  background: linear-gradient(to right, rgb(181, 92, 237), rgb(251, 179, 62));
+  border-radius: 10px;
+}
+
+.logos {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+  font-size: 35px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor2 {
+  width: 100%;
+  height: auto;
+}
+.textoFinal{
+  margin-left: 10px;
+ width: 300px;
+ font-weight: 700px;
+ font-size: 17px;
+}
+.logoFondo{
+width: 250px;
+
+}
+.logoFondo3 {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+
+
+.logoWeb {
+  display: block;
+  text-align: center;
+
+}
+
+
+}
