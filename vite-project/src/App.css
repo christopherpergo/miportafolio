@@ -1,3 +1,130 @@
+.botonTraduccion{
+  background-color: black;
+  color: #e95b23;
+  font-size: 20px
+
+}
+.linkInicio{
+  margin-left: 150px;
+}
+.entradaPadre{
+  display: flex;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.621) 0.5% , rgba(0, 0, 0, 1) 99% );
+
+}
+.fotoEntrada {
+  width: 470px;
+  height: 350px;
+  margin-right: 90px;
+  margin-top: 100px;
+  animation: myAnim45 10s ease-in 0s 10 normal forwards;
+}
+@keyframes myAnim45 {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+.foto{
+  margin-bottom: 80px;
+}
+.presentacion {
+  margin-left: 50px;
+  margin-right: 200px;
+  margin-top: 180px;
+}
+.miNombre{
+  color: #e95b23;
+}
+.miniLogos{
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.loguitos{
+  width: 60px;
+  height: 60px;
+ 
+}
+.loguitos5{
+  width: 85px;
+  height: 60px;
+}
+.shortPresentacion {
+  font-size: 17px;
+  color: white;
+}
+.shortPresentacion1{
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.myName{
+  font-size: 28px;
+  color: white;
+}
+
+.logosP-container1 {
+ position: absolute;
+  top: 90%; 
+  left: 20%; 
+  transform: translate(-50%, -50%); 
+}
+
+.logosIzq1 {
+  margin: 0 5px;
+  width: 50px;
+  height: 49px;
+  animation: myAnim11 4s ease 0s 1 normal forwards;
+}
+@keyframes myAnim11 {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.logosDer2 {
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  animation: myAnim22 4s ease 0s 1 normal forwards;
+}
+@keyframes myAnim22 {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 .contenedor {
   position: relative;
   width: 100%;
@@ -178,7 +305,8 @@ margin-top: 20px;
   margin-left: 500px;
   margin-right: 500px;
 border-radius: 10px;
-margin-top: 120px;
+margin-top: 280px;
+margin-bottom: 50px;
 
 }
 .logos {
@@ -187,8 +315,8 @@ margin-top: 120px;
   margin-top: 5px;
 }
 .contacto{
-  font-size: 43px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  font-size: 45px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
 }
 .contenedor2 {
   position: relative;
@@ -197,49 +325,121 @@ margin-top: 120px;
 }
 
 .textoContenedor {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   text-align: center;
+  z-index: 2;
 }
 
 .logoFondo {
-  width: 350px;
-  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
   background-image: url(https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_8_b9psle.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 150px;
+  filter: brightness(2); 
+  z-index: 1; 
 }
 
 .logoFondo3 {
-  width: 600px;
-  height: 600px;
+  position: absolute;
+  top: 0;
+margin-top: 80px;
+  width: 650px;
+  height: 650px;
+  margin-left: 400px;
   background-image: url(https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_6_kewix7.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  filter: brightness(4); 
+  z-index: 1;
+
+}
+
+.textoFinal{
+  color: black;
+  margin-left: 150px;
+ margin-right: 100px;
+  font-size: 23px;
+  text-align: left;
+  font-weight: 600;
   margin-top: 70px;
 
 }
-.textoFinal{
-  color: black;
-  margin-left: 350px;
-  margin-right: 350px;
-  font-size: 22px;
-  text-align: left;
-  font-weight: 600;
+.logoWeb{
+display: flex;
+justify-content: space-between;
 
 }
-.logoWeb{
+
+.padreContacto{
   display: flex;
-  justify-content: space-between;
+    justify-content: space-around;
 }
+.formContacto{
+
+  margin-right: 50px;
+}
+.input-control{
+  width: 400px;
+  padding: 7px;
+  margin-bottom: 8px;
+  border-radius: 7px;
+  background-color: rgb(220, 252, 252);
+  border: 2px solid rgb(244, 204, 204);
+}
+.form-control{
+  width: 404px;
+  height: 300px;
+  border-radius: 7px;
+  background-color: rgb(220, 252, 252);
+  border: 2px solid rgb(244, 204, 204);}
+
+  .botonForm {
+margin-top: 10px;
+background: linear-gradient(to left, rgb(248, 61, 61), rgb(45, 138, 232));
+color: white;
+border: solid 2px yellow;
+
+ }
+.message{
+   position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:#049443 ; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+    font-size: 17px;
+}
+.message.error {
+  background-color: rgba(252, 2, 2, 0.93); 
+  color: white; 
+  font-size: 17px;
+}
+.close-button{
+ border-radius: 7px;
+ padding: 5px;
+ border: none;
+ background-color:#FE982E ;
+color: white;
+font-size: 18px;
+}
+
 /* pantallas grandes */
 @media (min-width: 1400px){
   .mainBigscreen{
+    margin-top: 180px;
     margin-left: 200px;
     margin-right: 200px;
   }
@@ -250,17 +450,53 @@ margin-top: 120px;
   .infoPorjects{
     margin-right: 150px;
   }
-  .logoWeb{
-    margin-left: 180px;
-    margin-right: 180px;
+  .logoFondo{
+margin-left: 250px;
+  }
+  .logoFondo3{
+    margin-left: 650px;
   }
   .textoFinal{
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 350px;
+    margin-right: 180px;
   }
   .logoPadre{
     margin-left: 700px;
     margin-right: 700px;
+    font-size: 19px;
+  }
+  .formContacto {
+    margin-right: 250px;
+  }
+  .entradaPadre{
+    height: 850px;
+  }
+  .presentacion{
+    margin-top: 400px;
+    margin-right: 130px;
+    margin-left: 100px;
+  }
+  .foto{
+    margin-top: 150px;
+  }
+  .fotoEntrada{
+    width: 750px;
+    height: 500px;
+  }
+  .miniLogos{
+    margin-right: 20px;
+    margin-top: 150px;
+  }
+  .loguitos{
+    width: 65px;
+    height: 65px;
+    margin-top: 30px;
+  }
+  
+  .loguitos5{
+    width: 85px;
+    height: 65px;
+    margin-top: 30px;
   }
 }
 /* pantallas pequenas */
@@ -397,9 +633,9 @@ margin-top: 120px;
 }
 .textoFinal{
   margin-left: 10px;
- width: 300px;
+ width: 500px;
  font-weight: 700px;
- font-size: 17px;
+ font-size: 18px;
 }
 .logoFondo{
 width: 250px;
@@ -418,6 +654,8 @@ width: 250px;
   text-align: center;
 
 }
-
+.formContacto{
+  margin-right: 200px;
+}
 
 }
