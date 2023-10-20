@@ -236,6 +236,7 @@ margin-bottom: 50px;
   width: 40px;
   height: 40px;
   margin-top: 5px;
+  cursor: pointer;
 }
 .contacto{
   font-size: 45px;
