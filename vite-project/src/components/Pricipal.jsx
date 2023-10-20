@@ -31,14 +31,14 @@ export const Pricipal = ({ language }) => {
         <div className="foto">
           <img className="fotoEntrada" src='https://res.cloudinary.com/daacb3ohi/image/upload/v1697489986/pngwing.com_12_n4vkjl.png' />
         </div>
-        <div className='miniLogos'>
+        {/* <div className='miniLogos'>
         <img className='loguitos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697489985/pngwing.com_10_uynfkm.png" alt="" /><br></br>
             <img className='loguitos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697489985/pngwing.com_9_c7ebhp.png" alt="" /><br></br>
            <img className='loguitos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697489985/pngwing.com_11_ebqwr8.png"/><br></br>
             <img  className='loguitos'src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_8_b9psle.png" alt="" /><br></br>
            <img  className='loguitos5'src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_6_kewix7.png" alt="" /><br></br>
            <img className='loguitos5' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697219953/pngwing.com_7_s58mqi.png" alt="" />
-        </div>
+        </div> */}
       </div>
     </>
   );

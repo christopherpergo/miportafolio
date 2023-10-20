@@ -11,7 +11,7 @@ export const Enlaces = ({ language, toggleLanguage }) => {
       <Link to="/contacto">{language === 'es' ? 'Contacto' : 'Contact'}</Link>
 
       <button className='botonTraduccion' onClick={toggleLanguage}>
-        {language === 'es' ? 'EN' : 'ES'} <World size={35} strokeWidth={1.2} color={'#e95b23'} />
+        {language === 'es' ? 'EN' : 'ES'} <World size={28} strokeWidth={1.2} color={'#e95b23'} className='world' />
       </button>
     </nav>
   );

@@ -1,9 +1,10 @@
 .botonTraduccion{
   background-color: black;
   color: #e95b23;
-  font-size: 20px
+  font-size: 21px
 
 }
+
 .linkInicio{
   margin-left: 150px;
 }
@@ -125,92 +126,14 @@
 		transform: translateX(0);
 	}
 }
-.contenedor {
-  position: relative;
-  width: 100%;
-  height: 400px;
-}
 
-.fotoPrincipal {
-  position: relative;
-  height: 100%;
-  background-image: url(https://us.123rf.com/450wm/nexusplexus/nexusplexus1212/nexusplexus121201349/16767789-ojo-informaci%C3%B3n-visual-digital-representado-por-c%C3%ADrculos-y-signos.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 
-  filter: brightness(35%); 
-}
 
-.textoCabecera{
-  position: absolute;
-  top: 40%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  color: white; 
-  font-weight: bold; 
- 
 
-}
-.textoSpan {
-  margin-left: 75px;
-  padding: 3px;
-  font-size: 35px;
-  margin-top: 5px;
-  animation: myAnim3 3s ease 0s 1 normal forwards;
 
-}
-@keyframes myAnim3 {
-	0% {
-		transform: scale(0);
-	}
 
-	100% {
-		transform: scale(1);
-	}
-}
-.logosP-container {
-  margin-top: 20px; 
-  position: absolute;
-  top: 70%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-}
 
-.logosIzq {
-  margin: 0 5px;
-  width: 55px;
-  height: 52px;
-  animation: myAnim1 4s ease 0s 1 normal forwards;
-}
-@keyframes myAnim1 {
-	0% {
-		opacity: 0;
-		transform: translateX(-250px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-.logosDer {
-  margin: 0 5px;
-  width: 55px;
-  height: 55px;
-  animation: myAnim2 4s ease 0s 1 normal forwards;
-}
-@keyframes myAnim2 {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
 .miFoto{
   width: 220px;
   height: 137px;
@@ -317,6 +240,7 @@ margin-bottom: 50px;
 .contacto{
   font-size: 45px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
+  margin-top: 10px;
 }
 .contenedor2 {
   position: relative;
@@ -371,7 +295,7 @@ margin-top: 80px;
   font-size: 23px;
   text-align: left;
   font-weight: 600;
-  margin-top: 70px;
+  margin-top: 40px;
 
 }
 .logoWeb{
