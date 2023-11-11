@@ -1,7 +1,10 @@
 .botonTraduccion{
   background-color: black;
   color: #e95b23;
-  font-size: 21px
+  font-size: 21px;
+  position: relative; /* Cambiado de absolute a relative */
+  margin-top: 10px; /* Ajusta según sea necesario */
+  margin-right: 10px;
 
 }
 
@@ -14,66 +17,48 @@
 
 }
 .fotoEntrada {
-  width: 470px;
-  height: 350px;
-  margin-right: 90px;
-  margin-top: 100px;
-  animation: myAnim45 10s ease-in 0s 10 normal forwards;
-}
-@keyframes myAnim45 {
-	0%,
+  object-fit: cover;
+  margin-right: 70px;
+  animation: myAnim23 5s ease 0s 1 normal forwards;
+  margin-bottom: 150px;
+ }
+ @keyframes myAnim23 {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
 	100% {
+		opacity: 1;
 		transform: translateY(0);
 	}
-
-	10%,
-	30%,
-	50%,
-	70% {
-		transform: translateY(-8px);
-	}
-
-	20%,
-	40%,
-	60% {
-		transform: translateY(8px);
-	}
-
-	80% {
-		transform: translateY(6.4px);
-	}
-
-	90% {
-		transform: translateY(-6.4px);
-	}
 }
+
 .foto{
-  margin-bottom: 80px;
+  display: flex; /* Utilizar un contenedor flexible */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  width: 400px;
+  height: 420px;
+  margin-right: 100px;
+ margin-top: 70px;
+  box-shadow: 0 1px 2px 4px rgba(43, 43, 43, 0.777);
+  margin-bottom: 40px;
 }
 .presentacion {
   margin-left: 50px;
   margin-right: 200px;
-  margin-top: 180px;
+  margin-top: 150px;
 }
 .miNombre{
   color: #e95b23;
+  font-size: 32px;
 }
-.miniLogos{
-  margin-top: 50px;
-  margin-right: 10px;
-}
-.loguitos{
-  width: 60px;
-  height: 60px;
- 
-}
-.loguitos5{
-  width: 85px;
-  height: 60px;
-}
+
 .shortPresentacion {
-  font-size: 17px;
+  font-size: 20px;
   color: white;
+
 }
 .shortPresentacion1{
   font-size: 18px;
@@ -126,12 +111,6 @@
 		transform: translateX(0);
 	}
 }
-
-
-
-
-
-
 
 
 .miFoto{
@@ -363,6 +342,21 @@ font-size: 18px;
 
 /* pantallas grandes */
 @media (min-width: 1400px){
+
+   .foto{
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
+   margin-top: 500px;
+   
+  
+  }
+  .foto img {
+    width: 990px; /* Esto hará que la imagen ocupe el 100% del ancho del contenedor (.foto) */
+    height: auto;
+    margin-top: 290px;
+  }
+
   .mainBigscreen{
     margin-top: 180px;
     margin-left: 200px;
@@ -408,26 +402,13 @@ margin-left: 250px;
     width: 750px;
     height: 500px;
   }
-  .miniLogos{
-    margin-right: 20px;
-    margin-top: 150px;
-  }
-  .loguitos{
-    width: 65px;
-    height: 65px;
-    margin-top: 30px;
-  }
-  
-  .loguitos5{
-    width: 85px;
-    height: 65px;
-    margin-top: 30px;
-  }
+
 }
 /* pantallas pequenas */
 
 @media (max-width: 768px) {
 
+  
 .contenedor {
   position: relative;
   width: 100%;

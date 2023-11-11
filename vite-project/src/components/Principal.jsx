@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Pricipal = ({ language }) => {
+export const Principal = ({ language }) => {
   const linkedin = 'https://www.linkedin.com/in/christopherpereiragomes1990';
   const gitHub = 'https://github.com/christopherpergo';
 
@@ -12,7 +12,8 @@ export const Pricipal = ({ language }) => {
             {language === 'es' ? '¡Hola, soy yo!' : 'Hi, it\'s me'}
           </p>
           <h2 className='myName'>
-            I'm <span className="miNombre">Christopher</span>
+          {language === 'es' ? 'Me llamo ' : 'I\'m '}
+           <span className="miNombre">Christopher</span>
           </h2>
           <p className='shortPresentacion'>
             {language === 'es'
@@ -29,16 +30,10 @@ export const Pricipal = ({ language }) => {
           </div>
         </div>
         <div className="foto">
-          <img className="fotoEntrada" src='https://res.cloudinary.com/daacb3ohi/image/upload/v1697489986/pngwing.com_12_n4vkjl.png' />
+       
+        <img className="fotoEntrada" src="https://res.cloudinary.com/daacb3ohi/image/upload/e_background_removal/f_png/v1699702609/IMG_20220319_193656_901_ll7yhd.jpg"/>
         </div>
-        {/* <div className='miniLogos'>
-        <img className='loguitos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697489985/pngwing.com_10_uynfkm.png" alt="" /><br></br>
-            <img className='loguitos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697489985/pngwing.com_9_c7ebhp.png" alt="" /><br></br>
-           <img className='loguitos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697489985/pngwing.com_11_ebqwr8.png"/><br></br>
-            <img  className='loguitos'src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_8_b9psle.png" alt="" /><br></br>
-           <img  className='loguitos5'src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697219954/pngwing.com_6_kewix7.png" alt="" /><br></br>
-           <img className='loguitos5' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697219953/pngwing.com_7_s58mqi.png" alt="" />
-        </div> */}
+       
       </div>
     </>
   );
