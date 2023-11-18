@@ -7,7 +7,6 @@
   margin-right: 10px;
 
 }
-
 .linkInicio{
   margin-left: 150px;
 }
@@ -35,9 +34,9 @@
 }
 
 .foto{
-  display: flex; /* Utilizar un contenedor flexible */
-  align-items: center; /* Centrar verticalmente */
-  justify-content: center; /* Centrar horizontalmente */
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
   width: 400px;
   height: 420px;
   margin-right: 100px;
@@ -162,7 +161,7 @@ ul{
   margin-right: 20px;
 }
 .portfolio {
-background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.621) 0.5% , rgba(0, 0, 0, 1) 99% );
  color: white;
  padding: 6px;
 
@@ -208,10 +207,10 @@ margin-top: 20px;
   margin-right: 500px;
 border-radius: 10px;
 margin-top: 280px;
-margin-bottom: 50px;
+margin-bottom: 40px;
 
 }
-.logos {
+.logosContacto{
   width: 40px;
   height: 40px;
   margin-top: 5px;
@@ -339,22 +338,38 @@ border: solid 2px yellow;
 color: white;
 font-size: 18px;
 }
-
+.paginaContacto {
+  background-color:  linear-gradient(to bottom, rgba(0, 0, 0, 0.621) 0.5% , rgba(0, 0, 0, 1) 99% );
+}
 /* pantallas grandes */
 @media (min-width: 1400px){
+
+  .miNombre{
+font-size: 40px;
+  }
+  .shortPresentacion {
+    font-size: 28px;
+
+  }
+  .shortPresentacion1{
+    font-size: 25px;
+}
+  .myName{
+    font-size: 35px;
+
+  }
 
    .foto{
     width: 600px;
     height: 600px;
     margin-right: 100px;
-   margin-top: 500px;
-   
+   margin-top: 200px;
   
   }
   .foto img {
-    width: 990px; /* Esto hará que la imagen ocupe el 100% del ancho del contenedor (.foto) */
+    width: 1200px; 
     height: auto;
-    margin-top: 290px;
+    margin-top: 190px;
   }
 
   .mainBigscreen{
@@ -391,17 +406,11 @@ margin-left: 250px;
     height: 850px;
   }
   .presentacion{
-    margin-top: 400px;
-    margin-right: 130px;
+    margin-top: 300px;
+    margin-right: 150px;
     margin-left: 100px;
   }
-  .foto{
-    margin-top: 150px;
-  }
-  .fotoEntrada{
-    width: 750px;
-    height: 500px;
-  }
+ 
 
 }
 /* pantallas pequenas */

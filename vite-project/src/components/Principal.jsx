@@ -20,6 +20,7 @@ export const Principal = ({ language }) => {
               ? 'Soy un Desarrollador Web Full Stack Jr. Mi principal objetivo es contribuir al éxito de clientes mediante soluciones de desarrollo, mientras continúo aprendiendo cada día. Estoy comprometido en ofrecer soluciones tecnológicas efectivas y satisfactorias.'
               : 'I am a Jr. Full Stack Web Developer. My main mission is to assist and satisfy local and global clients with development solutions, while continuing to learn every day.'}
           </p>
+          
           <div className='logosP-container1'>
             <a href={linkedin} target='_blank' rel='noopener noreferrer'>
               <img className='logosIzq1' src='https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_hd3cly.png' alt='LinkedIn Logo' />
