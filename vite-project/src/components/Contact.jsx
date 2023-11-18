@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-export const Footer = ({ language }) => {
+export const Contact = ({ language }) => {
   const email = 'christopher.pg1990@gmail.com';
   const linkedin = 'https://www.linkedin.com/in/christopherpereiragomes1990';
   const gitHub = 'https://github.com/christopherpergo';
@@ -42,7 +42,7 @@ const handleCloseError = () => {
 
   return (
     <>
-      <div className='footer'>
+      <div className='paginaContacto'>
         <div className='contenedor2'>
 
     
@@ -94,20 +94,19 @@ const handleCloseError = () => {
  
             </div>
 
- 
-        <div className='logoPadre'>
-          <a href={`https://api.whatsapp.com/send?phone=+34651158543`} target="_blank" rel="noopener noreferrer">
-            <img className='logos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_2_.png_aynuai.png" />
-          </a>
-          <a href={linkedin} target='_blank' rel='noopener noreferrer'>
-            <img className='logos' src='https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_hd3cly.png' />
-          </a>
-          <a href={gitHub} target="_blank" rel="noopener noreferrer">
-            <img className='logos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_1_xzonru.png" />
-          </a>
-          <a href={email} target="_blank" rel="noopener noreferrer">
-            <img className='logos' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_2_.png_1_akiuvf.png" />
-          </a>
+  <div className='logoPadre'>
+ <a href={`https://api.whatsapp.com/send?phone=+34651158543`} target="_blank" rel="noopener noreferrer">
+   <img className='logosContacto' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_2_.png_aynuai.png" />
+  </a>
+  <a href={linkedin} target='_blank' rel='noopener noreferrer'>
+   <img className='logosContacto' src='https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_hd3cly.png' />
+  </a>
+  <a href={gitHub} target="_blank" rel="noopener noreferrer">
+   <img className='logosContacto' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_1_xzonru.png" />
+ </a>
+ <a href={email} target="_blank" rel="noopener noreferrer">
+   <img className='logosContacto' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697187581/pngwing.com_2_.png_1_akiuvf.png" />
+ </a>
         </div>
       </div>
     </>

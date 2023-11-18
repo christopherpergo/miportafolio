@@ -75,9 +75,7 @@ color: #f6f6f6;
 hr{
   height: 530px;
 }
-Footer {
-  background-color:  rgba(94, 93, 93, 0.133);
-}
+
 @media (max-width: 768px){
   hr{
     display: none;

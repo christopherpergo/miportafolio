@@ -4,7 +4,7 @@ import { Enlaces } from './components/Enlaces';
 import { About } from './components/About';
 import { Principal } from './components/Principal';
 import { Main } from './components/Main';
-import { Footer } from './components/Footer';
+import { Contact } from './components/Contact';
 import './App.css'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path='/' element={<Principal language={language} />} />
         <Route path='/about' element={<About language={language} />} />
         <Route path='/main' element={<Main language={language} />} />
-        <Route path='/contacto' element={<Footer language={language} />} />
+        <Route path='/contacto' element={<Contact language={language} />} />
       </Routes>
     </BrowserRouter>
   );
